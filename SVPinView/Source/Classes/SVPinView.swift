@@ -167,7 +167,7 @@ public class SVPinView: UIView {
     
      public func setFirstResponderAt(index: Int) {
         becomeFirstResponderAtIndex = index
-        collectionView.reloadData()
+        refreshPinView()
     }
     
     fileprivate func setPlaceholder() {
