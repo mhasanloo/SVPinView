@@ -165,6 +165,11 @@ public class SVPinView: UIView {
         didFinishCallback?(pin)
     }
     
+     public func setFirstResponderAt(index: Int) {
+        becomeFirstResponderAtIndex = index
+        collectionView.reloadData()
+    }
+    
     fileprivate func setPlaceholder() {
         for (index, char) in placeholder.enumerated() {
             guard index < pinLength else { return }
