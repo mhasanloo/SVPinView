@@ -60,8 +60,8 @@
             </view>
             <constraints>
                 <constraint firstItem="GTy-zr-AYb" firstAttribute="top" secondItem="mzP-0M-CaZ" secondAttribute="top" id="92W-Xp-xEa"/>
-                <constraint firstAttribute="trailing" secondItem="GTy-zr-AYb" secondAttribute="trailing" id="QEz-GF-wuV"/>
-                <constraint firstAttribute="bottom" secondItem="GTy-zr-AYb" secondAttribute="bottom" id="UFi-Zb-Rk5"/>
+                <constraint firstAttribute="trailing" secondItem="GTy-zr-AYb" secondAttribute="trailing" constant="4" id="QEz-GF-wuV"/>
+                <constraint firstAttribute="bottom" secondItem="GTy-zr-AYb" secondAttribute="bottom" constant="4" id="UFi-Zb-Rk5"/>
                 <constraint firstItem="GTy-zr-AYb" firstAttribute="leading" secondItem="mzP-0M-CaZ" secondAttribute="leading" id="rkk-1R-rPh"/>
             </constraints>
             <point key="canvasLocation" x="38" y="57"/>
